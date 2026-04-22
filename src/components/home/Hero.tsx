@@ -68,8 +68,10 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.4 }}
             className="flex flex-col sm:flex-row justify-center items-center space-y-5 sm:space-y-0 sm:space-x-6 pb-20"
           >
-            <Link
-              href="/contact"
+            <a
+              href="https://wa.me/923239518506?text=Hi%20Websozo%2C%20I%20want%20to%20claim%20the%20special%20offer%20for%20a%20professional%20website.%20Please%20provide%20me%20more%20information."
+              target="_blank"
+              rel="noopener noreferrer"
               className="relative w-full sm:w-auto group"
             >
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
@@ -77,7 +79,7 @@ const Hero = () => {
                 <span>Claim This Offer</span>
                 <ArrowRight size={22} className="group-hover:translate-x-1 transition-transform" />
               </div>
-            </Link>
+            </a>
           </motion.div>
         </div>
 

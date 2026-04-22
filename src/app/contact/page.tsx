@@ -33,11 +33,11 @@ const Contact = () => {
               
               <div className="space-y-12">
                 {[
-                  { title: 'Data Stream', value: 'webbssozo@gmail.com', icon: Mail, color: 'text-cyan-400' },
-                  { title: 'Direct Line', value: '03239518506', icon: Phone, color: 'text-purple-400' },
-                  { title: 'Base Coordinates', value: 'North Nazimabad, Karachi, Pakistan', icon: MapPin, color: 'text-blue-400' }
+                  { title: 'Data Stream', value: 'webbssozo@gmail.com', icon: Mail, color: 'text-cyan-400', href: 'mailto:webbssozo@gmail.com' },
+                  { title: 'Direct Line', value: '03239518506', icon: Phone, color: 'text-purple-400', href: 'https://wa.me/923239518506' },
+                  { title: 'Base Coordinates', value: 'North Nazimabad, Karachi, Pakistan', icon: MapPin, color: 'text-blue-400', href: '#' }
                 ].map((item, idx) => (
-                  <div key={idx} className="flex items-start space-x-8 group">
+                  <a key={idx} href={item.href} target={item.href.startsWith('http') ? "_blank" : "_self"} rel="noopener noreferrer" className="flex items-start space-x-8 group">
                     <div className="w-16 h-16 bg-white/5 border border-white/10 rounded-[1.25rem] flex items-center justify-center shrink-0 group-hover:border-cyan-500/50 group-hover:shadow-[0_0_20px_rgba(0,229,255,0.1)] transition-all">
                       <item.icon className={`w-8 h-8 ${item.color}`} />
                     </div>
@@ -45,7 +45,7 @@ const Contact = () => {
                       <h3 className="text-sm font-black text-gray-500 uppercase tracking-[0.3em] mb-2">{item.title}</h3>
                       <p className="text-white text-xl font-bold group-hover:text-cyan-300 transition-colors">{item.value}</p>
                     </div>
-                  </div>
+                  </a>
                 ))}
               </div>
             </motion.div>

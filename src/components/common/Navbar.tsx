@@ -63,14 +63,16 @@ const Navbar = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Link
-                href="/contact"
+              <a
+                href="https://wa.me/923239518506?text=Hi%20Websozo%2C%20I%20want%20to%20build%20a%20website.%20Please%20provide%20me%20more%20information."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="relative px-6 py-2 rounded-full font-medium text-white overflow-hidden group bg-white/5 border border-white/10 hover:border-cyan-500/50 transition-all"
               >
                 <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-cyan-500/20 to-purple-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <span className="relative z-10 text-sm group-hover:text-cyan-300 transition-colors">Get Started</span>
                 <div className="absolute inset-0 -z-10 bg-gradient-to-r from-cyan-500 to-purple-600 opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-500" />
-              </Link>
+              </a>
             </motion.div>
           </div>
 
@@ -104,13 +106,15 @@ const Navbar = () => {
                   {link.name}
                 </Link>
               ))}
-              <Link
-                href="/contact"
+              <a
+                href="https://wa.me/923239518506?text=Hi%20Websozo%2C%20I%20want%20to%20build%20a%20website.%20Please%20provide%20me%20more%20information."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-gradient-to-r from-cyan-600 to-purple-600 text-white px-6 py-3 rounded-xl font-bold text-center shadow-[0_0_15px_rgba(0,229,255,0.3)] mt-4"
                 onClick={() => setIsOpen(false)}
               >
                 Get Started
-              </Link>
+              </a>
             </div>
           </motion.div>
         )}
