@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowRight, Laptop, Sparkles, Code, Globe } from 'lucide-react';
+import { ArrowRight, Laptop, Sparkles, Code, Globe, Download } from 'lucide-react';
 
 const Hero = () => { 
   return (
@@ -78,6 +78,18 @@ const Hero = () => {
               <div className="relative px-12 py-5 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-2xl font-black text-white text-xl flex items-center justify-center space-x-3">
                 <span>Claim This Offer</span>
                 <ArrowRight size={22} className="group-hover:translate-x-1 transition-transform" />
+              </div>
+            </a>
+
+            <a
+              href="/websozo-profile.pdf"
+              download="Websozo-Profile.pdf"
+              className="relative w-full sm:w-auto group"
+            >
+              <div className="absolute -inset-1 bg-white/10 rounded-2xl blur opacity-0 group-hover:opacity-100 transition duration-500"></div>
+              <div className="relative px-12 py-5 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl font-black text-white text-xl flex items-center justify-center space-x-3 hover:border-cyan-500/50 transition-all">
+                <span>Download Profile</span>
+                <Download size={22} className="group-hover:translate-y-1 transition-transform text-cyan-400" />
               </div>
             </a>
           </motion.div>
