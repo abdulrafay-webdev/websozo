@@ -34,7 +34,7 @@ const CTA = () => {
             </h2>
             
             <p className="text-xl text-gray-400 font-medium max-w-2xl mx-auto">
-              Get a professional, modern website for just Rs. 3000. 
+              Get a professional, modern website at a fraction of the market price. 
               Limited time offer for businesses looking to scale.
             </p>
             
@@ -45,12 +45,12 @@ const CTA = () => {
                 className="w-full sm:w-auto"
               >
                 <a
-                  href="https://wa.me/923239518506?text=Hi%20Websozo%2C%20I%20want%20to%20get%20started%20with%20a%20website%20for%20Rs.%203000.%20Please%20provide%20me%20more%20information."
+                  href="https://wa.me/923239518506?text=Hi%20Websozo%2C%20I%20want%20to%20get%20started%20with%20a%20website%20at%20an%20unbeatable%20price.%20Please%20provide%20me%20more%20information."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block px-12 py-6 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-2xl font-black text-xl text-white shadow-[0_0_30px_rgba(0,229,255,0.3)] hover:shadow-[0_0_50px_rgba(0,229,255,0.5)] transition-all flex items-center justify-center space-x-3 group"
                 >
-                  <span>Get Started for Rs. 3000</span>
+                  <span>Get Started at Lowest Price</span>
                   <ArrowRight size={24} className="group-hover:translate-x-2 transition-transform" />
                 </a>
               </motion.div>

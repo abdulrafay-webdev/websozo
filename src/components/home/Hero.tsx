@@ -32,7 +32,7 @@ const Hero = () => {
             </div>
             <div className="inline-flex items-center space-x-3 bg-cyan-500/10 backdrop-blur-xl px-6 py-2 rounded-full border border-cyan-500/30 shadow-[0_0_20px_rgba(0,229,255,0.2)] group hover:border-cyan-400 transition-all cursor-default animate-bounce">
               <span className="text-sm font-black tracking-widest uppercase text-cyan-400">
-                Starting from Rs. 3000/-
+                Lowest Market Price Guaranteed
               </span>
             </div>
           </motion.div>
@@ -57,7 +57,7 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="max-w-3xl mx-auto text-xl text-gray-400 leading-relaxed font-medium"
           >
-            Get your business online with a premium, high-performance website starting at just Rs. 3000. 
+            Get your business online with a premium, high-performance website at prices much lower than the current market rates. 
             Websozo combines futuristic design with speed to give your brand the digital edge it deserves.
           </motion.p>
 

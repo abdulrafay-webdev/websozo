@@ -3,7 +3,7 @@ import { Code, Layout, ShoppingCart, Search, Settings, User } from 'lucide-react
 export const services = [
   {
     title: 'Custom Web Development',
-    description: 'High-performance websites built with Next.js starting from just Rs. 3000 for ultimate speed and SEO.',
+    description: 'High-performance websites built with Next.js at prices far below market rates for ultimate speed and SEO.',
     icon: Code,
     id: 'web-dev'
   },
@@ -70,7 +70,7 @@ export const testimonials = [
   {
     name: 'Ahmed Khan',
     role: 'Startup Founder',
-    content: 'Websozo ne hamari online presence ko bilkul badal diya. 3000 mein itni zabardast website milna namumkin lagta tha. Highly recommended!',
+    content: 'Websozo ne hamari online presence ko bilkul badal diya. Market se itni kam qeemat mein itni zabardast website milna namumkin lagta tha. Highly recommended!',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&h=150&fit=crop'
   },
   {
@@ -82,7 +82,7 @@ export const testimonials = [
   {
     name: 'Zeeshan Ahmed',
     role: 'E-commerce Seller',
-    content: 'Sirf 3000 mein itni professional website! Design bohot futuristic hai aur customer handling bhi behtareen hai.',
+    content: 'Market se bohot kam qeemat mein itni professional website! Design bohot futuristic hai aur customer handling bhi behtareen hai.',
     avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=150&h=150&fit=crop'
   }
 ];
